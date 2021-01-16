@@ -20,7 +20,8 @@ make
 ## usage 
 
 Input should be an image and its gsd.
-Gsd means the ground sample distance of input optical remote sensing image, suppose to be 12.5 cm/pixel.
+Gsd means the ground sample distance of an optical remote sensing(ORS) image.
+In SCSF-Net, the default setting of gsd is 12.5 cm/pixel.
 
 The params of SCSF-Net to detect vehicle are in `vehicle.weight`.
 It can detect vehicle target in remote sensing image automatical.
